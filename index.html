@@ -1,0 +1,532 @@
+<html>
+    <body>
+        <h1>Grokking Modern System Design Interview for Engineers & Managers</h1>
+        <ul>
+            <li>
+                <a href="/static/1-system-design-interviews/1-what-is-a-system-design-interview.html">1-system-design-interviews/1-what-is-a-system-design-interview.html</a>
+            </li>
+            <li>
+                <a href="/static/1-system-design-interviews/2-how-to-prepare-for-success.html">1-system-design-interviews/2-how-to-prepare-for-success.html</a>
+            </li>
+            <li>
+                <a href="/static/1-system-design-interviews/3-how-to-perform-well.html">1-system-design-interviews/3-how-to-perform-well.html</a>
+            </li>
+            <li>
+                <a href="/static/2-introduction/1-introduction-to-modern-system-design.html">2-introduction/1-introduction-to-modern-system-design.html</a>
+            </li>
+            <li>
+                <a href="/static/2-introduction/2-course-structure-for-modern-system-design.html">2-introduction/2-course-structure-for-modern-system-design.html</a>
+            </li>
+            <li>
+                <a href="/static/3-abstractions/1-why-are-abstractions-important.html">3-abstractions/1-why-are-abstractions-important.html</a>
+            </li>
+            <li>
+                <a href="/static/3-abstractions/2-network-abstractions-remote-procedure-calls.html">3-abstractions/2-network-abstractions-remote-procedure-calls.html</a>
+            </li>
+            <li>
+                <a href="/static/3-abstractions/3-spectrum-of-consistency-models.html">3-abstractions/3-spectrum-of-consistency-models.html</a>
+            </li>
+            <li>
+                <a href="/static/3-abstractions/4-the-spectrum-of-failure-models.html">3-abstractions/4-the-spectrum-of-failure-models.html</a>
+            </li>
+            <li>
+                <a href="/static/4-non-functional-system-characteristics/1-availability.html">4-non-functional-system-characteristics/1-availability.html</a>
+            </li>
+            <li>
+                <a href="/static/4-non-functional-system-characteristics/2-reliability.html">4-non-functional-system-characteristics/2-reliability.html</a>
+            </li>
+            <li>
+                <a href="/static/4-non-functional-system-characteristics/3-scalability.html">4-non-functional-system-characteristics/3-scalability.html</a>
+            </li>
+            <li>
+                <a href="/static/4-non-functional-system-characteristics/4-maintainability.html">4-non-functional-system-characteristics/4-maintainability.html</a>
+            </li>
+            <li>
+                <a href="/static/4-non-functional-system-characteristics/5-fault-tolerance.html">4-non-functional-system-characteristics/5-fault-tolerance.html</a>
+            </li>
+            <li>
+                <a href="/static/5-back-of-the-envelope-calculations/1-put-back-of-the-envelope-numbers-in-perspective.html">5-back-of-the-envelope-calculations/1-put-back-of-the-envelope-numbers-in-perspective.html</a>
+            </li>
+            <li>
+                <a href="/static/5-back-of-the-envelope-calculations/2-examples-of-resource-estimation.html">5-back-of-the-envelope-calculations/2-examples-of-resource-estimation.html</a>
+            </li>
+            <li>
+                <a href="/static/6-building-blocks/1-introduction-to-building-blocks-for-modern-system-design.html">6-building-blocks/1-introduction-to-building-blocks-for-modern-system-design.html</a>
+            </li>
+            <li>
+                <a href="/static/7-domain-name-system/1-introduction-to-domain-name-system-dns.html">7-domain-name-system/1-introduction-to-domain-name-system-dns.html</a>
+            </li>
+            <li>
+                <a href="/static/7-domain-name-system/2-how-the-domain-name-system-works.html">7-domain-name-system/2-how-the-domain-name-system-works.html</a>
+            </li>
+            <li>
+                <a href="/static/8-load-balancers/1-introduction-to-load-balancers.html">8-load-balancers/1-introduction-to-load-balancers.html</a>
+            </li>
+            <li>
+                <a href="/static/8-load-balancers/2-global-and-local-load-balancing.html">8-load-balancers/2-global-and-local-load-balancing.html</a>
+            </li>
+            <li>
+                <a href="/static/8-load-balancers/3-advanced-details-of-load-balancers.html">8-load-balancers/3-advanced-details-of-load-balancers.html</a>
+            </li>
+            <li>
+                <a href="/static/9-databases/1-introduction-to-databases.html">9-databases/1-introduction-to-databases.html</a>
+            </li>
+            <li>
+                <a href="/static/9-databases/2-types-of-databases.html">9-databases/2-types-of-databases.html</a>
+            </li>
+            <li>
+                <a href="/static/9-databases/3-data-replication.html">9-databases/3-data-replication.html</a>
+            </li>
+            <li>
+                <a href="/static/9-databases/4-data-partitioning.html">9-databases/4-data-partitioning.html</a>
+            </li>
+            <li>
+                <a href="/static/9-databases/5-trade-offs-in-databases.html">9-databases/5-trade-offs-in-databases.html</a>
+            </li>
+            <li>
+                <a href="/static/10-key-value-store/1-system-design-the-key-value-store.html">10-key-value-store/1-system-design-the-key-value-store.html</a>
+            </li>
+            <li>
+                <a href="/static/10-key-value-store/2-design-of-a-key-value-store.html">10-key-value-store/2-design-of-a-key-value-store.html</a>
+            </li>
+            <li>
+                <a href="/static/10-key-value-store/3-ensure-scalability-and-replication.html">10-key-value-store/3-ensure-scalability-and-replication.html</a>
+            </li>
+            <li>
+                <a href="/static/10-key-value-store/4-versioning-data-and-achieving-configurability.html">10-key-value-store/4-versioning-data-and-achieving-configurability.html</a>
+            </li>
+            <li>
+                <a href="/static/10-key-value-store/5-enable-fault-tolerance-and-failure-detection.html">10-key-value-store/5-enable-fault-tolerance-and-failure-detection.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/1-system-design-the-content-delivery-network-cdn.html">11-content-delivery-network-cdn/1-system-design-the-content-delivery-network-cdn.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/2-introduction-to-a-cdn.html">11-content-delivery-network-cdn/2-introduction-to-a-cdn.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/3-design-of-a-cdn.html">11-content-delivery-network-cdn/3-design-of-a-cdn.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/4-in-depth-investigation-of-cdn-part-1.html">11-content-delivery-network-cdn/4-in-depth-investigation-of-cdn-part-1.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/5-in-depth-investigation-of-cdn-part-2.html">11-content-delivery-network-cdn/5-in-depth-investigation-of-cdn-part-2.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/6-evaluation-of-cdns-design.html">11-content-delivery-network-cdn/6-evaluation-of-cdns-design.html</a>
+            </li>
+            <li>
+                <a href="/static/11-content-delivery-network-cdn/7-quiz-on-cdns-design.html">11-content-delivery-network-cdn/7-quiz-on-cdns-design.html</a>
+            </li>
+            <li>
+                <a href="/static/12-sequencer/1-system-design-sequencer.html">12-sequencer/1-system-design-sequencer.html</a>
+            </li>
+            <li>
+                <a href="/static/12-sequencer/2-design-of-a-unique-id-generator.html">12-sequencer/2-design-of-a-unique-id-generator.html</a>
+            </li>
+            <li>
+                <a href="/static/12-sequencer/3-unique-ids-with-causality.html">12-sequencer/3-unique-ids-with-causality.html</a>
+            </li>
+            <li>
+                <a href="/static/13-distributed-monitoring/1-system-design-distributed-monitoring.html">13-distributed-monitoring/1-system-design-distributed-monitoring.html</a>
+            </li>
+            <li>
+                <a href="/static/13-distributed-monitoring/2-introduction-to-distributed-monitoring.html">13-distributed-monitoring/2-introduction-to-distributed-monitoring.html</a>
+            </li>
+            <li>
+                <a href="/static/13-distributed-monitoring/3-prerequisites-of-a-monitoring-system.html">13-distributed-monitoring/3-prerequisites-of-a-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/14-monitor-server-side-errors/1-design-of-a-monitoring-system.html">14-monitor-server-side-errors/1-design-of-a-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/14-monitor-server-side-errors/2-detailed-design-of-a-monitoring-system.html">14-monitor-server-side-errors/2-detailed-design-of-a-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/14-monitor-server-side-errors/3-visualize-data-in-a-monitoring-system.html">14-monitor-server-side-errors/3-visualize-data-in-a-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/15-monitor-client-side-errors/1-focus-on-client-side-errors-in-a-monitoring-system.html">15-monitor-client-side-errors/1-focus-on-client-side-errors-in-a-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/15-monitor-client-side-errors/2-design-of-a-client-side-monitoring-system.html">15-monitor-client-side-errors/2-design-of-a-client-side-monitoring-system.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/1-system-design-the-distributed-cache.html">16-distributed-cache/1-system-design-the-distributed-cache.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/2-background-of-distributed-cache.html">16-distributed-cache/2-background-of-distributed-cache.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/3-high-level-design-of-a-distributed-cache.html">16-distributed-cache/3-high-level-design-of-a-distributed-cache.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/4-detailed-design-of-a-distributed-cache.html">16-distributed-cache/4-detailed-design-of-a-distributed-cache.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/5-evaluation-of-a-distributed-caches-design.html">16-distributed-cache/5-evaluation-of-a-distributed-caches-design.html</a>
+            </li>
+            <li>
+                <a href="/static/16-distributed-cache/6-memcached-versus-redis.html">16-distributed-cache/6-memcached-versus-redis.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/1-system-design-the-distributed-messaging-queue.html">17-distributed-messaging-queue/1-system-design-the-distributed-messaging-queue.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/2-requirements-of-a-distributed-messaging-queues-design.html">17-distributed-messaging-queue/2-requirements-of-a-distributed-messaging-queues-design.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/3-considerations-of-a-distributed-messaging-queues-design.html">17-distributed-messaging-queue/3-considerations-of-a-distributed-messaging-queues-design.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/4-design-of-a-distributed-messaging-queue-part-1.html">17-distributed-messaging-queue/4-design-of-a-distributed-messaging-queue-part-1.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/5-design-of-a-distributed-messaging-queue-part-2.html">17-distributed-messaging-queue/5-design-of-a-distributed-messaging-queue-part-2.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/6-evaluation-of-a-distributed-messaging-queues-design.html">17-distributed-messaging-queue/6-evaluation-of-a-distributed-messaging-queues-design.html</a>
+            </li>
+            <li>
+                <a href="/static/17-distributed-messaging-queue/7-quiz-on-the-distributed-messaging-queues-design.html">17-distributed-messaging-queue/7-quiz-on-the-distributed-messaging-queues-design.html</a>
+            </li>
+            <li>
+                <a href="/static/18-pub-sub/1-system-design-the-pub-sub-abstraction.html">18-pub-sub/1-system-design-the-pub-sub-abstraction.html</a>
+            </li>
+            <li>
+                <a href="/static/18-pub-sub/2-introduction-to-pub-sub.html">18-pub-sub/2-introduction-to-pub-sub.html</a>
+            </li>
+            <li>
+                <a href="/static/18-pub-sub/3-design-of-a-pub-sub-system.html">18-pub-sub/3-design-of-a-pub-sub-system.html</a>
+            </li>
+            <li>
+                <a href="/static/19-rate-limiter/1-system-design-the-rate-limiter.html">19-rate-limiter/1-system-design-the-rate-limiter.html</a>
+            </li>
+            <li>
+                <a href="/static/19-rate-limiter/2-requirements-of-a-rate-limiters-design.html">19-rate-limiter/2-requirements-of-a-rate-limiters-design.html</a>
+            </li>
+            <li>
+                <a href="/static/19-rate-limiter/3-design-of-a-rate-limiter.html">19-rate-limiter/3-design-of-a-rate-limiter.html</a>
+            </li>
+            <li>
+                <a href="/static/19-rate-limiter/4-rate-limiter-algorithms.html">19-rate-limiter/4-rate-limiter-algorithms.html</a>
+            </li>
+            <li>
+                <a href="/static/19-rate-limiter/5-quiz-on-the-rate-limiters-design.html">19-rate-limiter/5-quiz-on-the-rate-limiters-design.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/1-system-design-a-blob-store.html">20-blob-store/1-system-design-a-blob-store.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/2-requirements-of-a-blob-stores-design.html">20-blob-store/2-requirements-of-a-blob-stores-design.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/3-design-of-a-blob-store.html">20-blob-store/3-design-of-a-blob-store.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/4-design-considerations-of-a-blob-store.html">20-blob-store/4-design-considerations-of-a-blob-store.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/5-evaluation-of-a-blob-stores-design.html">20-blob-store/5-evaluation-of-a-blob-stores-design.html</a>
+            </li>
+            <li>
+                <a href="/static/20-blob-store/6-quiz-on-the-blob-stores-design.html">20-blob-store/6-quiz-on-the-blob-stores-design.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/1-system-design-the-distributed-search.html">21-distributed-search/1-system-design-the-distributed-search.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/2-requirements-of-a-distributed-search-systems-design.html">21-distributed-search/2-requirements-of-a-distributed-search-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/3-indexing-in-a-distributed-search.html">21-distributed-search/3-indexing-in-a-distributed-search.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/4-design-of-a-distributed-search.html">21-distributed-search/4-design-of-a-distributed-search.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/5-scaling-search-and-indexing.html">21-distributed-search/5-scaling-search-and-indexing.html</a>
+            </li>
+            <li>
+                <a href="/static/21-distributed-search/6-evaluation-of-a-distributed-searchs-design.html">21-distributed-search/6-evaluation-of-a-distributed-searchs-design.html</a>
+            </li>
+            <li>
+                <a href="/static/22-distributed-logging/1-system-design-distributed-logging.html">22-distributed-logging/1-system-design-distributed-logging.html</a>
+            </li>
+            <li>
+                <a href="/static/22-distributed-logging/2-introduction-to-distributed-logging.html">22-distributed-logging/2-introduction-to-distributed-logging.html</a>
+            </li>
+            <li>
+                <a href="/static/22-distributed-logging/3-design-of-a-distributed-logging-service.html">22-distributed-logging/3-design-of-a-distributed-logging-service.html</a>
+            </li>
+            <li>
+                <a href="/static/23-distributed-task-scheduler/1-system-design-the-distributed-task-scheduler.html">23-distributed-task-scheduler/1-system-design-the-distributed-task-scheduler.html</a>
+            </li>
+            <li>
+                <a href="/static/23-distributed-task-scheduler/2-requirements-of-a-distributed-task-schedulers-design.html">23-distributed-task-scheduler/2-requirements-of-a-distributed-task-schedulers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/23-distributed-task-scheduler/3-design-of-a-distributed-task-scheduler.html">23-distributed-task-scheduler/3-design-of-a-distributed-task-scheduler.html</a>
+            </li>
+            <li>
+                <a href="/static/23-distributed-task-scheduler/4-design-considerations-of-a-distributed-task-scheduler.html">23-distributed-task-scheduler/4-design-considerations-of-a-distributed-task-scheduler.html</a>
+            </li>
+            <li>
+                <a href="/static/23-distributed-task-scheduler/5-evaluation-of-a-distributed-task-schedulers-design.html">23-distributed-task-scheduler/5-evaluation-of-a-distributed-task-schedulers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/24-sharded-counters/1-system-design-the-sharded-counters.html">24-sharded-counters/1-system-design-the-sharded-counters.html</a>
+            </li>
+            <li>
+                <a href="/static/24-sharded-counters/2-high-level-design-of-sharded-counters.html">24-sharded-counters/2-high-level-design-of-sharded-counters.html</a>
+            </li>
+            <li>
+                <a href="/static/24-sharded-counters/3-detailed-design-of-sharded-counters.html">24-sharded-counters/3-detailed-design-of-sharded-counters.html</a>
+            </li>
+            <li>
+                <a href="/static/24-sharded-counters/4-quiz-on-the-sharded-counters-design.html">24-sharded-counters/4-quiz-on-the-sharded-counters-design.html</a>
+            </li>
+            <li>
+                <a href="/static/25-concluding-the-building-blocks-discussion/1-wrapping-up-the-building-blocks-discussion.html">25-concluding-the-building-blocks-discussion/1-wrapping-up-the-building-blocks-discussion.html</a>
+            </li>
+            <li>
+                <a href="/static/25-concluding-the-building-blocks-discussion/2-the-reshaded-approach-for-system-design.html">25-concluding-the-building-blocks-discussion/2-the-reshaded-approach-for-system-design.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/1-system-design-youtube.html">26-design-youtube/1-system-design-youtube.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/2-requirements-of-youtubes-design.html">26-design-youtube/2-requirements-of-youtubes-design.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/3-design-of-youtube.html">26-design-youtube/3-design-of-youtube.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/4-evaluation-of-youtubes-design.html">26-design-youtube/4-evaluation-of-youtubes-design.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/5-the-reality-is-more-complicated.html">26-design-youtube/5-the-reality-is-more-complicated.html</a>
+            </li>
+            <li>
+                <a href="/static/26-design-youtube/6-quiz-on-youtubes-design.html">26-design-youtube/6-quiz-on-youtubes-design.html</a>
+            </li>
+            <li>
+                <a href="/static/27-design-quora/1-system-design-quora.html">27-design-quora/1-system-design-quora.html</a>
+            </li>
+            <li>
+                <a href="/static/27-design-quora/2-requirements-of-quoras-design.html">27-design-quora/2-requirements-of-quoras-design.html</a>
+            </li>
+            <li>
+                <a href="/static/27-design-quora/3-initial-design-of-quora.html">27-design-quora/3-initial-design-of-quora.html</a>
+            </li>
+            <li>
+                <a href="/static/27-design-quora/4-final-design-of-quora.html">27-design-quora/4-final-design-of-quora.html</a>
+            </li>
+            <li>
+                <a href="/static/27-design-quora/5-evaluation-of-quoras-design.html">27-design-quora/5-evaluation-of-quoras-design.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/1-system-design-google-maps.html">28-design-google-maps/1-system-design-google-maps.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/2-requirements-of-google-maps-design.html">28-design-google-maps/2-requirements-of-google-maps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/3-design-of-google-maps.html">28-design-google-maps/3-design-of-google-maps.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/4-challenges-of-google-maps-design.html">28-design-google-maps/4-challenges-of-google-maps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/5-detailed-design-of-google-maps.html">28-design-google-maps/5-detailed-design-of-google-maps.html</a>
+            </li>
+            <li>
+                <a href="/static/28-design-google-maps/6-evaluation-of-google-maps-design.html">28-design-google-maps/6-evaluation-of-google-maps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/29-design-a-proximity-service-yelp/1-system-design-yelp.html">29-design-a-proximity-service-yelp/1-system-design-yelp.html</a>
+            </li>
+            <li>
+                <a href="/static/29-design-a-proximity-service-yelp/2-requirements-of-yelps-design.html">29-design-a-proximity-service-yelp/2-requirements-of-yelps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/29-design-a-proximity-service-yelp/3-design-of-yelp.html">29-design-a-proximity-service-yelp/3-design-of-yelp.html</a>
+            </li>
+            <li>
+                <a href="/static/29-design-a-proximity-service-yelp/4-design-considerations-of-yelp.html">29-design-a-proximity-service-yelp/4-design-considerations-of-yelp.html</a>
+            </li>
+            <li>
+                <a href="/static/29-design-a-proximity-service-yelp/5-quiz-on-yelps-design.html">29-design-a-proximity-service-yelp/5-quiz-on-yelps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/1-system-design-uber.html">30-design-uber/1-system-design-uber.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/2-requirements-of-ubers-design.html">30-design-uber/2-requirements-of-ubers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/3-high-level-design-of-uber.html">30-design-uber/3-high-level-design-of-uber.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/4-detailed-design-of-uber.html">30-design-uber/4-detailed-design-of-uber.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/5-payment-service-and-fraud-detection-in-uber-design.html">30-design-uber/5-payment-service-and-fraud-detection-in-uber-design.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/6-evaluation-of-ubers-design.html">30-design-uber/6-evaluation-of-ubers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/30-design-uber/7-quiz-on-ubers-design.html">30-design-uber/7-quiz-on-ubers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/1-system-design-twitter.html">31-design-twitter/1-system-design-twitter.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/2-requirements-of-twitters-design.html">31-design-twitter/2-requirements-of-twitters-design.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/3-high-level-design-of-twitter.html">31-design-twitter/3-high-level-design-of-twitter.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/4-detailed-design-of-twitter.html">31-design-twitter/4-detailed-design-of-twitter.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/5-client-side-load-balancer-for-twitter.html">31-design-twitter/5-client-side-load-balancer-for-twitter.html</a>
+            </li>
+            <li>
+                <a href="/static/31-design-twitter/6-quiz-on-twitters-design.html">31-design-twitter/6-quiz-on-twitters-design.html</a>
+            </li>
+            <li>
+                <a href="/static/32-design-newsfeed-system/1-system-design-newsfeed-system.html">32-design-newsfeed-system/1-system-design-newsfeed-system.html</a>
+            </li>
+            <li>
+                <a href="/static/32-design-newsfeed-system/2-requirements-of-a-newsfeed-systems-design.html">32-design-newsfeed-system/2-requirements-of-a-newsfeed-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/32-design-newsfeed-system/3-design-of-a-newsfeed-system.html">32-design-newsfeed-system/3-design-of-a-newsfeed-system.html</a>
+            </li>
+            <li>
+                <a href="/static/32-design-newsfeed-system/4-evaluation-of-a-newsfeed-systems-design.html">32-design-newsfeed-system/4-evaluation-of-a-newsfeed-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/33-design-instagram/1-system-design-instagram.html">33-design-instagram/1-system-design-instagram.html</a>
+            </li>
+            <li>
+                <a href="/static/33-design-instagram/2-requirements-of-instagrams-design.html">33-design-instagram/2-requirements-of-instagrams-design.html</a>
+            </li>
+            <li>
+                <a href="/static/33-design-instagram/3-design-of-instagram.html">33-design-instagram/3-design-of-instagram.html</a>
+            </li>
+            <li>
+                <a href="/static/33-design-instagram/4-detailed-design-of-instagram.html">33-design-instagram/4-detailed-design-of-instagram.html</a>
+            </li>
+            <li>
+                <a href="/static/33-design-instagram/5-quiz-on-instagrams-design.html">33-design-instagram/5-quiz-on-instagrams-design.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/1-system-design-tinyurl.html">34-design-a-url-shortening-service-tinyurl/1-system-design-tinyurl.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/2-requirements-of-tinyurls-design.html">34-design-a-url-shortening-service-tinyurl/2-requirements-of-tinyurls-design.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/3-design-and-deployment-of-tinyurl.html">34-design-a-url-shortening-service-tinyurl/3-design-and-deployment-of-tinyurl.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/4-encoder-for-tinyurl.html">34-design-a-url-shortening-service-tinyurl/4-encoder-for-tinyurl.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/5-evaluation-of-tinyurls-design.html">34-design-a-url-shortening-service-tinyurl/5-evaluation-of-tinyurls-design.html</a>
+            </li>
+            <li>
+                <a href="/static/34-design-a-url-shortening-service-tinyurl/6-quiz-on-tinyurls-design.html">34-design-a-url-shortening-service-tinyurl/6-quiz-on-tinyurls-design.html</a>
+            </li>
+            <li>
+                <a href="/static/35-design-a-web-crawler/1-system-design-web-crawler.html">35-design-a-web-crawler/1-system-design-web-crawler.html</a>
+            </li>
+            <li>
+                <a href="/static/35-design-a-web-crawler/2-requirements-of-a-web-crawlers-design.html">35-design-a-web-crawler/2-requirements-of-a-web-crawlers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/35-design-a-web-crawler/3-design-of-a-web-crawler.html">35-design-a-web-crawler/3-design-of-a-web-crawler.html</a>
+            </li>
+            <li>
+                <a href="/static/35-design-a-web-crawler/4-design-improvements-of-a-web-crawler.html">35-design-a-web-crawler/4-design-improvements-of-a-web-crawler.html</a>
+            </li>
+            <li>
+                <a href="/static/35-design-a-web-crawler/5-evaluation-of-web-crawlers-design.html">35-design-a-web-crawler/5-evaluation-of-web-crawlers-design.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/1-system-design-whatsapp.html">36-design-whatsapp/1-system-design-whatsapp.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/2-requirements-of-whatsapps-design.html">36-design-whatsapp/2-requirements-of-whatsapps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/3-high-level-design-of-whatsapp.html">36-design-whatsapp/3-high-level-design-of-whatsapp.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/4-detailed-design-of-whatsapp.html">36-design-whatsapp/4-detailed-design-of-whatsapp.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/5-evaluation-of-whatsapps-design.html">36-design-whatsapp/5-evaluation-of-whatsapps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/36-design-whatsapp/6-quiz-on-whatsapps-design.html">36-design-whatsapp/6-quiz-on-whatsapps-design.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/1-system-design-the-typeahead-suggestion-system.html">37-design-typeahead-suggestion/1-system-design-the-typeahead-suggestion-system.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/2-requirements-of-the-typeahead-suggestion-systems-design.html">37-design-typeahead-suggestion/2-requirements-of-the-typeahead-suggestion-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/3-high-level-design-of-the-typeahead-suggestion-system.html">37-design-typeahead-suggestion/3-high-level-design-of-the-typeahead-suggestion-system.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/4-data-structure-for-storing-prefixes.html">37-design-typeahead-suggestion/4-data-structure-for-storing-prefixes.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/5-detailed-design-of-the-typeahead-suggestion-system.html">37-design-typeahead-suggestion/5-detailed-design-of-the-typeahead-suggestion-system.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/6-evaluation-of-the-typeahead-suggestion-systems-design.html">37-design-typeahead-suggestion/6-evaluation-of-the-typeahead-suggestion-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/37-design-typeahead-suggestion/7-quiz-on-the-typeahead-suggestion-systems-design.html">37-design-typeahead-suggestion/7-quiz-on-the-typeahead-suggestion-systems-design.html</a>
+            </li>
+            <li>
+                <a href="/static/38-design-a-collaborative-document-editing-service-google-docs/1-system-design-google-docs.html">38-design-a-collaborative-document-editing-service-google-docs/1-system-design-google-docs.html</a>
+            </li>
+            <li>
+                <a href="/static/38-design-a-collaborative-document-editing-service-google-docs/2-requirements-of-google-docs-design.html">38-design-a-collaborative-document-editing-service-google-docs/2-requirements-of-google-docs-design.html</a>
+            </li>
+            <li>
+                <a href="/static/38-design-a-collaborative-document-editing-service-google-docs/3-design-of-google-docs.html">38-design-a-collaborative-document-editing-service-google-docs/3-design-of-google-docs.html</a>
+            </li>
+            <li>
+                <a href="/static/38-design-a-collaborative-document-editing-service-google-docs/4-concurrency-in-collaborative-editing.html">38-design-a-collaborative-document-editing-service-google-docs/4-concurrency-in-collaborative-editing.html</a>
+            </li>
+            <li>
+                <a href="/static/38-design-a-collaborative-document-editing-service-google-docs/5-evaluation-of-google-docs-design.html">38-design-a-collaborative-document-editing-service-google-docs/5-evaluation-of-google-docs-design.html</a>
+            </li>
+            <li>
+                <a href="/static/39-spectacular-failures/1-introduction-to-distributed-system-failures.html">39-spectacular-failures/1-introduction-to-distributed-system-failures.html</a>
+            </li>
+            <li>
+                <a href="/static/39-spectacular-failures/2-facebook-whatsapp-instagram-oculus-outage.html">39-spectacular-failures/2-facebook-whatsapp-instagram-oculus-outage.html</a>
+            </li>
+            <li>
+                <a href="/static/39-spectacular-failures/3-aws-kinesis-outage-affecting-many-organizations.html">39-spectacular-failures/3-aws-kinesis-outage-affecting-many-organizations.html</a>
+            </li>
+            <li>
+                <a href="/static/39-spectacular-failures/4-aws-wide-spread-outage.html">39-spectacular-failures/4-aws-wide-spread-outage.html</a>
+            </li>
+            <li>
+                <a href="/static/40-concluding-remarks/1-conclusions.html">40-concluding-remarks/1-conclusions.html</a>
+            </li>
+        </ul>
+    </body>
+</html>
